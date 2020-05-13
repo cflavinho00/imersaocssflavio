@@ -1,0 +1,37 @@
+@charset "utf8";
+
+body {
+	background-image: url(https://image.freepik.com/vetores-gratis/parede-de-tijolos-realista_1284-4683.jpg);
+	background-size: auto 147vh;
+	color: rgb(0,191,255);
+	font-family: Bodoni;
+	height: 100vh;
+	
+
+}
+.menu{background: rgb(75,0,130);
+}
+.menu li {
+	list-style: none; 
+}
+.menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+.site-subtitle,
+.site-title{background-color: rgb(255,99,71);
+	color: rgb(0,0,0);
+	text-align: center;
+}
+.site-subtitle{background-color: rgb(34,139,34);
+	color: rgb(0,0,0);
+	font-style: italic;
+ }
+li{color: rgb(255,20,147);
+}
+a{color: rgb(245,245,245);
+text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
